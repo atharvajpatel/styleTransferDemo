@@ -12,6 +12,7 @@ Make sure you have the necessary packages installed to enable CUDA support for f
 
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
 
 ## VGG Logging
