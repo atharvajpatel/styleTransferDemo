@@ -68,11 +68,12 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 ### Testing
 
 - I used a custom style transfer GPT to evaluate my progress.
-- Tested content images like a Horse, Bollywood actor, and Attack on Titan scenes.
-- Tested style images from Van Gogh, Leonardo Da Vinci, and Salvador Dali.
+- Tested content images was Horse
+- Tested style images from Van Gogh.
+- All images under images folder
 
 ### Shortcomings
 
 - The resolution of the generated images was poor.
-- For some reason, Van Gogh's style consistently generated red colors, even though there was no red in his original image.
+- For some reason, Van Gogh's style consistently generated green or red colors, even though there was no red in his original image.
   - This might be due to pixel mixing in the feature maps.
