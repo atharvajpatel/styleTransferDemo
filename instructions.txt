@@ -1,0 +1,17 @@
+- Navigate to the folder
+- Set up virtual environment (cuda+env.txt)
+    - python -m venv realenv
+    - realenv\Scripts\activate
+- Install cuda into virtualenv
+    - pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+    - USE different version if incompatible
+    - run python cudaCheck.py to make sure CUDA is running
+- Download requirements
+    - pip install -r requirements.txt
+- Run vggFinal.py
+    - Navigate to def main()
+    - Edit the paths to style image, content image, and output image 
+        - Right now have them all saved in images subfolder
+        - Can edit the path to where to save/access them (ideally within the repo)
+        - Edit the images you want to play with (ie use Mona Lisa as style or something other than a horse)
+        - If you want to create multiple will need to 
