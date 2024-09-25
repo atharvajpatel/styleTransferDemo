@@ -9,9 +9,10 @@
 - Download requirements
     - pip install -r requirements.txt
 - Run vggFinal.py
+    - The only input should be style weight versus content weight (ie more like style image or stick to original image)
     - Navigate to def main()
     - Edit the paths to style image, content image, and output image 
         - Right now have them all saved in images subfolder
         - Can edit the path to where to save/access them (ideally within the repo)
         - Edit the images you want to play with (ie use Mona Lisa as style or something other than a horse)
-        - If you want to create multiple will need to 
+        - If you want to create multiple will need to call the model multiple times and be able to iterate through a list of 
